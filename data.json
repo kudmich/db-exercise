@@ -1,0 +1,242 @@
+{
+	"id": 1,
+	"jsonrpc": "2.0",
+	"result": {
+		"ops": [
+			{
+				"block": 3800000,
+				"op": {
+					"type": "comment_operation",
+					"value": {
+						"parent_author": "",
+						"parent_permlink": "steemit",
+						"author": "frosty",
+						"permlink": "escrow-backed-newbies-welcome-everyone-who-upvotes-this-post-will-get-an-equal-amount-of-bitcoin-just-provide-your-bitcoin",
+						"title": "[Escrow Backed][Newbies Welcome][Anti-Bot] Everyone who upvotes this post will get an equal amount of Bitcoin, just provide your Bitcoin address. Ends 08/05 5:10PM EST.",
+						"body": "Reputable escrow agent and Litecoin developer @someguy123 from [bitrated.com](https://www.bitrated.com/Someguy123) will disburse the Bitcoin when the time runs out. He is providing proof in the comment section. To qualify upvote this post and provide your Bitcoin address in the comment section. If you are new and want some bitcoin you can easily create a wallet and get an address from [blockchain.info](https://blockchain.info/wallet/#/signup).\n\nThis will be absolutely independently verifiable by each and every one of you on the bitcoin blockchain by looking at address: [17RAKN5r7Hp1Nou2qQfcdjLKsjfm6sZ7Rk](https://blockchain.info/address/17RAKN5r7Hp1Nou2qQfcdjLKsjfm6sZ7Rk). Beginning total: 1 Bitcoin. This value may go up based on upvote activity but will not go down.\n\nAbout: I put together this experiment to test the extents of value types and amount that users seek in their social networks. So lets give this a go.\n\nUpvote & Enjoy!",
+						"json_metadata": "{\"tags\":[\"steemit\",\"money\",\"bitcoin\",\"investment\",\"market\"],\"users\":[\"someguy123\"],\"links\":[\"https://www.bitrated.com/Someguy123\"]}"
+					}
+				},
+				"op_in_trx": 0,
+				"operation_id": 0,
+				"timestamp": "2016-08-04T22:30:15",
+				"trx_id": "0b004eeae4ba9f65aab546216136b93d36fc5d2a",
+				"trx_in_block": 0,
+				"virtual_op": 0
+			},
+			{
+				"block": 3800000,
+				"op": {
+					"type": "vote_operation",
+					"value": {
+						"voter": "gunpower",
+						"author": "forgetthefallen",
+						"permlink": "do-you-want-to-know-how-many-followers-you-have-on-steemit",
+						"weight": 1000
+					}
+				},
+				"op_in_trx": 0,
+				"operation_id": 0,
+				"timestamp": "2016-08-04T22:30:15",
+				"trx_id": "57ebf7b31324c7b4b42ed42c0b6417149fa85e24",
+				"trx_in_block": 1,
+				"virtual_op": 0
+			},
+			{
+				"block": 3800000,
+				"op": {
+					"type": "effective_comment_vote_operation",
+					"value": {
+						"voter": "gunpower",
+						"author": "forgetthefallen",
+						"permlink": "do-you-want-to-know-how-many-followers-you-have-on-steemit",
+						"weight": "797376096615",
+						"rshares": 5187121,
+						"total_vote_weight": "46852139085361",
+						"pending_payout": {
+							"amount": "0",
+							"precision": 3,
+							"nai": "@@000000013"
+						}
+					}
+				},
+				"op_in_trx": 0,
+				"operation_id": 0,
+				"timestamp": "2016-08-04T22:30:15",
+				"trx_id": "57ebf7b31324c7b4b42ed42c0b6417149fa85e24",
+				"trx_in_block": 1,
+				"virtual_op": 1
+			},
+			{
+				"block": 3800000,
+				"op": {
+					"type": "comment_operation",
+					"value": {
+						"parent_author": "cheetah",
+						"parent_permlink": "re-equity-trading-and-trading-education-why-do-it-20160804t222119",
+						"author": "scaredycatguide",
+						"permlink": "re-cheetah-re-equity-trading-and-trading-education-why-do-it-20160804t222119-20160804t222950189z",
+						"title": "",
+						"body": "@cheetah - I love to see that this bot it working.   I wrote the original content on tradingeducationblogs (my name is shown as author), so yes it is 95% similar to the content I posted there.    I plan to bring more of my work into STEEMIT, hope it won't cause an issue.  Thanks!",
+						"json_metadata": "{\"tags\":[\"money\"],\"users\":[\"cheetah\"]}"
+					}
+				},
+				"op_in_trx": 0,
+				"operation_id": 0,
+				"timestamp": "2016-08-04T22:30:15",
+				"trx_id": "659248a8aefdc02372ac86c2d1822d31412a08b5",
+				"trx_in_block": 2,
+				"virtual_op": 0
+			},
+			{
+				"block": 3800000,
+				"op": {
+					"type": "vote_operation",
+					"value": {
+						"voter": "antispam",
+						"author": "bignastywhale",
+						"permlink": "waves-weekly-no-5",
+						"weight": -100
+					}
+				},
+				"op_in_trx": 0,
+				"operation_id": 0,
+				"timestamp": "2016-08-04T22:30:15",
+				"trx_id": "a66f620adaf6d89a2a2af93f69af9f0da89469de",
+				"trx_in_block": 3,
+				"virtual_op": 0
+			},
+			{
+				"block": 3800000,
+				"op": {
+					"type": "effective_comment_vote_operation",
+					"value": {
+						"voter": "antispam",
+						"author": "bignastywhale",
+						"permlink": "waves-weekly-no-5",
+						"weight": 0,
+						"rshares": -10859704,
+						"total_vote_weight": 0,
+						"pending_payout": {
+							"amount": "0",
+							"precision": 3,
+							"nai": "@@000000013"
+						}
+					}
+				},
+				"op_in_trx": 0,
+				"operation_id": 0,
+				"timestamp": "2016-08-04T22:30:15",
+				"trx_id": "a66f620adaf6d89a2a2af93f69af9f0da89469de",
+				"trx_in_block": 3,
+				"virtual_op": 1
+			},
+			{
+				"block": 3800000,
+				"op": {
+					"type": "vote_operation",
+					"value": {
+						"voter": "freedomengineer",
+						"author": "brendazambrano",
+						"permlink": "hi-i-am-the-first-playmate-with-more-than-a-million-followers-to-blog-on-steemit",
+						"weight": 10000
+					}
+				},
+				"op_in_trx": 0,
+				"operation_id": 0,
+				"timestamp": "2016-08-04T22:30:15",
+				"trx_id": "074bf088096e2ddd0ac279b1cf2b5243cccada3b",
+				"trx_in_block": 4,
+				"virtual_op": 0
+			},
+			{
+				"block": 3800000,
+				"op": {
+					"type": "effective_comment_vote_operation",
+					"value": {
+						"voter": "freedomengineer",
+						"author": "brendazambrano",
+						"permlink": "hi-i-am-the-first-playmate-with-more-than-a-million-followers-to-blog-on-steemit",
+						"weight": "143470801973094",
+						"rshares": "33691300735",
+						"total_vote_weight": "17882589908543480672",
+						"pending_payout": {
+							"amount": "4325503",
+							"precision": 3,
+							"nai": "@@000000013"
+						}
+					}
+				},
+				"op_in_trx": 0,
+				"operation_id": 0,
+				"timestamp": "2016-08-04T22:30:15",
+				"trx_id": "074bf088096e2ddd0ac279b1cf2b5243cccada3b",
+				"trx_in_block": 4,
+				"virtual_op": 1
+			},
+			{
+				"block": 3800000,
+				"op": {
+					"type": "vote_operation",
+					"value": {
+						"voter": "steemlove",
+						"author": "gaspot",
+						"permlink": "breaking-major-shorting-on-okcoin-hours-before-bitfinex-hack",
+						"weight": 1000
+					}
+				},
+				"op_in_trx": 0,
+				"operation_id": 0,
+				"timestamp": "2016-08-04T22:30:15",
+				"trx_id": "bbef411ff73ce74162944f38d511f4fa6c382b53",
+				"trx_in_block": 5,
+				"virtual_op": 0
+			},
+			{
+				"block": 3800000,
+				"op": {
+					"type": "effective_comment_vote_operation",
+					"value": {
+						"voter": "steemlove",
+						"author": "gaspot",
+						"permlink": "breaking-major-shorting-on-okcoin-hours-before-bitfinex-hack",
+						"weight": "3626274913315",
+						"rshares": 2578531,
+						"total_vote_weight": "1518042402111525",
+						"pending_payout": {
+							"amount": "0",
+							"precision": 3,
+							"nai": "@@000000013"
+						}
+					}
+				},
+				"op_in_trx": 0,
+				"operation_id": 0,
+				"timestamp": "2016-08-04T22:30:15",
+				"trx_id": "bbef411ff73ce74162944f38d511f4fa6c382b53",
+				"trx_in_block": 5,
+				"virtual_op": 1
+			},
+			{
+				"block": 3800000,
+				"op": {
+					"type": "producer_reward_operation",
+					"value": {
+						"producer": "pharesim",
+						"vesting_shares": {
+							"amount": "3856632717",
+							"precision": 6,
+							"nai": "@@000000037"
+						}
+					}
+				},
+				"op_in_trx": 0,
+				"operation_id": 0,
+				"timestamp": "2016-08-04T22:30:18",
+				"trx_id": "0000000000000000000000000000000000000000",
+				"trx_in_block": 4294967295,
+				"virtual_op": 1
+			}
+		]
+	}
+}

@@ -1,30 +1,19 @@
 import json
-import db
 from main import engine
 from db import Block, Operations
 from sqlalchemy.orm import Session
 
 
-
-# json_obj = open('data.json')
-# json_dict = json.load(json_obj)
-
 with open('data.json', 'r') as read_file:
     data = json.load(read_file)
 
-for i in range(10):
+for i in range(len(data['result']["ops"])-1):
     data_to_operation_body = Operations(operation_body=str(data["result"]["ops"][i]["op"]["value"]))
+    data_to_block_table = Block()
     local_session = Session(bind=engine)
-
     local_session.add(data_to_operation_body)
+    local_session.add(data_to_block_table)
     local_session.commit()
 
+local_session.close()
 
-
-# new_data2 = Block()
-# new_data3 = Operations(operation_body="asdsada")
-
-# local_session.add(new_data2)
-# local_session.add(new_data3)
-
-# local_session.commit()

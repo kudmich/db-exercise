@@ -15,5 +15,5 @@ for i in range(len(data['result']["ops"])-1):
     local_session.add(data_to_block_table)
     local_session.commit()
 
-local_session.close()
 
+local_session.close()
